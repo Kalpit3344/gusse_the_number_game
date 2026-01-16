@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+      position: absolute;
+
+}
+
+
+#game{
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 25vh;
+    left: 70vh;
+    background-color: rgb(203, 202, 216);
+    border: 2px outset rgb(143, 142, 142);
+    height: 500px;
+    width: 500px;
+   display: flex;
+   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap :20px
+}
+
+button{
+    background-color: rgb(34, 216, 155);
+    border: dashed;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+input{
+    background-color: rgb(34, 216, 155);
+    padding: 5px;
+    border: inset;
+  
+    height: 20px;
+    width: 22px;
+}
